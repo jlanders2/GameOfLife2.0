@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Of Life</title>
+    <style>
+        table {
+            margin: 0 auto;
+        }
+        td {
+            border: 1px solid black;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            text-align: left;
+            display: inline-block;
+            margin: 0 auto;
+        }
+        #header {
+            text-align: center;
+        }
+        #status_indicator {
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="header">Conway's Game of Life</h1>
+    <div class="container">
+        <div id="status_indicator"></div>
+        <table id="board">
+        </table>
+    
+    </div>
+    <button id="start_btn">Start</button>
+    <button id="stop_btn">Stop</button>
+    
+    <script src="gameOfLife.js"></script>
+</body>
+</html>

@@ -34,3 +34,5 @@ started.
 ### *These are not all the possible patterns but a few ones that are used alot*
 
 ## UPDATES IN PROGRESS
+* Currently in the progress of transitioning this old project to pure html, css, js. Along with fixing some of the code to be 
+  more efficient just for fun
